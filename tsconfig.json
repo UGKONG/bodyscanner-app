@@ -4,7 +4,10 @@
     "jsx": "react-jsx",
     "module": "commonjs",
     "moduleResolution": "node",
-    "typeRoots": [],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./@types"
+    ],
     "resolveJsonModule": true,
     "noEmit": true,
     "esModuleInterop": true,
