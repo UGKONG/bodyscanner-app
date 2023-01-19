@@ -103,7 +103,7 @@ const CameraContainer = styled(Camera)`
 `;
 const ButtonContainer = styled.View`
   width: 100%;
-  height: 100;
+  height: 100px;
   background-color: #fff;
   flex-direction: row;
   align-items: center;
@@ -116,7 +116,7 @@ const Button = styled.TouchableOpacity.attrs(() => ({
   width: 60px;
   height: 60px;
   border-radius: 60px;
-  border-width: 1;
+  border-width: 1px;
   align-items: center;
   justify-content: center;
   background-color: #eee;
